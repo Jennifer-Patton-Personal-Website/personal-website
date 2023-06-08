@@ -39,11 +39,6 @@ img{
     height: 200px
 }
 
-.projects{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 
 
