@@ -13,9 +13,22 @@ header {
     grid-column: span 3;
     text-align: center;
     border-bottom: 3px solid #88ff4d;
+    text-shadow: 3px 2px 2px #88FF4D;
+    background-color: #d580ff;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 nav {
     padding: 30px;
-    border-right: 1px solid #88ff4d
+    border-right: 1px solid #88ff4d;
+    font-size: 30px;
+    color: #88ff4d;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
+.mission {
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
