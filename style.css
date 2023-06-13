@@ -1,45 +1,14 @@
 body{
-    background-color: rgb(246, 135, 254);
+    background-color: rgb(196, 77, 255);
     margin: 0;
 }
-h1{
-  height: 100px;
-  margin: 0;
-  padding: 25px;
-  border: 5px solid rgb(204, 238, 129);
-  background-color: rgb(255,255,153);
-  text-shadow: 1px 2px 2px #9999FF;
-}
-
-.mission { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.motto {text-align: center;
-        font-size: 40px;
-  
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h2 {font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    text-shadow: 1px 2px 2px #D5FFCC;
-}
-
-.hobby {
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.know{
-    font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* adjusting the page to show fractions instead of px to make it easier to math for the grid-columns*/
+.homepage {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 20px;
 
 }
-
-img{
-    width: 200px;
-    height: 200px
+header{
+    grid-column: span 3;
 }
-
-
-
-
