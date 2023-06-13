@@ -45,12 +45,5 @@ footer {
     border-top: 3px solid #aaff80;
 
 }
-/* responsive style */
-@media screen and (max-width 1200px) {
-    nav {
-        grid-column: span 3;
-        border-right: 0;
-        border-bottom: 1px solid #88FF4D;
-    }
-}
+
 
