@@ -9,6 +9,13 @@ body{
     column-gap: 20px;
 
 }
-header{
+header {
     grid-column: span 3;
+    text-align: center;
+    border-bottom: 3px solid #88ff4d;
+
+}
+nav {
+    padding: 30px;
+    border-right: 1px solid #88ff4d
 }
