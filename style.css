@@ -43,7 +43,7 @@ footer {
     grid-column: span 3;
     text-align: center;
     border-top: 3px solid #aaff80;
-
+    font-size: 40px;
 }
 .aboutpage {
     display: grid;
@@ -61,26 +61,42 @@ footer {
    grid-area: 3 / 2;
     text-align: center;
     inline-size: 1000px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 h1 {
     text-shadow: 3px 2px 2px #88FF4D;
+    font-size: 40px;
 }
 img {
     height: 150px;
     border-radius: 50%;
 }
 h2 {
+    font-size: 40px;
     text-shadow: 3px 2px 2px #88FF4D;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h3 {
+    font-size: 30px;
     text-shadow: 3px 2px 2px #88FF4D 
 }
 .portfoliopage {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     column-gap: 20px;
+}
+.pp {
+    grid-column: span 3;
+    text-align: center;
+}
+.project1 {
+    inline-size: 500px;
+}
+.project2 {
+    inline-size: 500px
+}
+.project3 {
+    inline-size: 500px;
 }
 
