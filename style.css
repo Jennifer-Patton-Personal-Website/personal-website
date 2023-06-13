@@ -20,8 +20,8 @@ header {
 }
 nav {
     padding: 30px;
-    border-right: 1px solid #88ff4d;
-    font-size: 30px;
+    border: 1px solid #88ff4d;
+    font-size: 45px;
     color: #88ff4d;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -45,5 +45,24 @@ footer {
     border-top: 3px solid #aaff80;
 
 }
-
+.aboutpage {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 20px;
+}
+.know {
+    grid-column: span 2;
+    text-align: justify;
+    font-size: 20px;
+    inline-size: 1000px;
+}
+.hobby {
+    grid-column: span 3;
+    text-align: center;
+    inline-size: ;
+}
+img {
+    height: 150px;
+    border-radius: 50%;
+}
 
