@@ -78,4 +78,9 @@ h2 {
 h3 {
     text-shadow: 3px 2px 2px #88FF4D 
 }
+.portfoliopage {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 20px;
+}
 
