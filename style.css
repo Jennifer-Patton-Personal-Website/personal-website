@@ -23,6 +23,7 @@ nav {
     font-size: 30px;
     color: #0a0220;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    inline-size: 250px;
 }
 ul {
     list-style-type: none;
@@ -47,7 +48,7 @@ ul {
     column-gap: 20px;
 }
 .know {
-    grid-column: span 2;
+    grid-area: span 1; 
     text-align: justify;
     font-size: 20px;
     inline-size: 1000px;
