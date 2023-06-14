@@ -98,7 +98,7 @@ h3 {
 /* switching from grid to flex box for this last page */
 .contactpage{
     display: grid;
-    grid-area: 3 / 3;
+    grid-a;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
@@ -108,8 +108,6 @@ h3 {
     font-size: 30px;
 }
 .form {
-    grid-area: 3 / 2;
-    align-items: center;
-    justify-content: center;
-    inline-size: 300px;
+    grid-area: 3 / span;
+    inline-size: 800px;
 }
