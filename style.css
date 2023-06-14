@@ -103,4 +103,10 @@ h3 {
     align-items: center;
     justify-content: center;
 }
-
+.personalinfo {
+    grid-column: span 2;
+    font-size: 30px;
+}
+.form {
+    
+}
