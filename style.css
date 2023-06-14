@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(196, 77, 255);
+    background-color: rgb(113, 110, 114);
     margin: 0;
 }
 /* adjusting the page to show fractions instead of px to make it easier to math for the grid-columns*/
@@ -12,18 +12,20 @@ body{
 header {
     grid-column: span 3;
     text-align: center;
-    border-bottom: 3px solid #88ff4d;
-    text-shadow: 3px 2px 2px #88FF4D;
-    background-color: #d580ff;
+    border-bottom: 3px solid #6a40db;
+    text-shadow: 3px 2px 2px #4df3ff;
+    background-color: #adadad;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 }
 nav {
     padding: 30px;
-    border: 1px solid #88ff4d;
     font-size: 45px;
-    color: #88ff4d;
+    color: #6a40db;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul {
+    list-style-type: none;
 }
 .mission {
     padding: 30px;
@@ -36,14 +38,8 @@ nav {
     text-align: center;
     font-size: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#88ff4d;
-    text-shadow: 1px 2px 2px #1b1020;
-}
-footer {
-    grid-column: span 3;
-    text-align: center;
-    border-top: 3px solid #aaff80;
-    font-size: 40px;
+    color:#390cb3;
+    text-shadow: 1px 2px 2px #ce68fd;
 }
 .aboutpage {
     display: grid;
@@ -65,7 +61,7 @@ footer {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 h1 {
-    text-shadow: 3px 2px 2px #88FF4D;
+    text-shadow: 3px 2px 2px #6a40db;
     font-size: 40px;
 }
 img {
@@ -74,12 +70,12 @@ img {
 }
 h2 {
     font-size: 40px;
-    text-shadow: 3px 2px 2px #88FF4D;
+    text-shadow: 3px 2px 2px #6a40db;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h3 {
     font-size: 30px;
-    text-shadow: 3px 2px 2px #88FF4D 
+    text-shadow: 3px 2px 2px #6a40db; 
 }
 .portfoliopage {
     display: grid;
