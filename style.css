@@ -20,7 +20,7 @@ header {
 }
 nav {
     padding: 30px;
-    font-size: 45px;
+    font-size: 30px;
     color: #6a40db;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -95,7 +95,19 @@ h3 {
 .project3 {
     inline-size: 500px;
 }
-.personalinformation {
-    grid
+.contactform {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    column-gap: 20px;
 }
-
+.personalinfo {
+    grid-area: 1 / 2;
+    font-size: 30px;
+    color: #390cb3;
+    inline-size: 1000px;
+}
+.contactform {
+    grid-area: span 3;
+    text-align: center;
+}
