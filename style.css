@@ -96,11 +96,11 @@ h3 {
     inline-size: 500px;
 }
 /* switching from grid to flex box for this last page */
-.contactform {
-    width: 100%;
-    height: 100vh;
-    display: flex;
+.contactpage{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 20px;
     align-items: center;
     justify-content: center;
-    
 }
+
