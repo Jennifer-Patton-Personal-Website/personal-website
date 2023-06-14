@@ -95,19 +95,12 @@ h3 {
 .project3 {
     inline-size: 500px;
 }
+/* switching from grid to flex box for this last page */
 .contactform {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    column-gap: 20px;
-}
-.personalinfo {
-    grid-area: 1 / 2;
-    font-size: 30px;
-    color: #390cb3;
-    inline-size: 1000px;
-}
-.contactform {
-    grid-area: span 3;
-    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
