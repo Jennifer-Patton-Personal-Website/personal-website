@@ -52,16 +52,18 @@
                 <form class="contact-form" action="contact.html" method="post">
                     <h2>Quick Contact</h2>
                     <p>Will receive a response within 48 hours.</p>
+<!--going to put the form into list format-->                 
+                        <ul>
+                           <li><label for="name">Full Name</label>
+                                <input type="text" id="fname" name="name" placeholder="Full Name"></li> 
 
-                    <label for="name">Full Name</label>
-                    <input type="text" id="fname" name="name" placeholder="Full Name">
+                    <li><label for="email">Email Address</label>
+                        <input type="text" id="email" name="emailaddress" placeholder="Your email address"></li>
 
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email" name="emailaddress" placeholder="Your email address">
-
-                    <textarea id="message" rows="4" placeholder="How can I help you?"></textarea>
+                   <li> <textarea id="message" rows="4" placeholder="How can I help you?"></textarea></li>
 <!--trying to create an active submit button-->
                     <input type="submit" value="Submit">
+                </ul>
                 </form>
             </div>
         </section>

@@ -102,6 +102,6 @@ h3 {
 }
 .form {
     grid-column: span 3;
-    align-items: center;
+    text-align: center;
     font-size: 30px;
 }
