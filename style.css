@@ -10,7 +10,7 @@ body{
 
 }
 header {
-    grid-column: span 3;
+    grid-column: span 2;
     text-align: center;
     border-bottom: 3px solid #6a40db;
     text-shadow: 3px 2px 2px #f324bf;
@@ -44,11 +44,11 @@ ul {
 }
 .aboutpage {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     column-gap: 20px;
 }
 .know {
-    grid-area: span 1; 
+    grid-area: span 3; 
     text-align: justify;
     font-size: 20px;
     inline-size: 1000px;
