@@ -90,7 +90,7 @@ h3 {
 /* decided to go back to grid styling */
 .contactpage{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
