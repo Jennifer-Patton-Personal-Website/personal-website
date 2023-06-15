@@ -98,11 +98,10 @@ h3 {
 .personalinfo {
     grid-column: span 3;
     font-size: 30px;
+    text-align: center;
 }
 .form {
     grid-column: span 3;
     align-items: center;
-    justify-content: center;
     font-size: 30px;
-    inline-size: 900px;
 }
