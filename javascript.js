@@ -4,7 +4,7 @@
 let str = 'Hello World'
 alert(str)
 
-
+/* functional form code from block 12 assignment*/
 const form = document.querySelector("#form")
 const submitButton = document.querySelector("#submit")
 const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'
