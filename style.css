@@ -97,6 +97,7 @@ h3 {
     inline-size: 500px;
 }
 /* switching from grid to flex box for this last page */
+/* decided to go back to grid styling */
 .contactpage{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
