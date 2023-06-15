@@ -109,8 +109,9 @@ h3 {
     font-size: 30px;
 }
 .form {
-    grid-column: span 3;
+    grid-column: span 2;
     align-items: center;
+    justify-content: center;
     inline-size: 800px;
     font-size: 30px;
 }
