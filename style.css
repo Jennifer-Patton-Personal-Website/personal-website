@@ -5,12 +5,12 @@ body{
 /* adjusting the page to show fractions instead of px to make it easier to math for the grid-columns*/
 .homepage {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;;
+    grid-template-columns: 1fr 3fr 1fr;
     column-gap: 20px;
 
 }
 header {
-    grid-column: span 2;
+    grid-column: span 3;
     text-align: center;
     border-bottom: 3px solid #6a40db;
     text-shadow: 3px 2px 2px #f324bf;
@@ -19,17 +19,16 @@ header {
 
 }
 nav {
-    grid-column: 2
-    padding: 30px;
+    grid-column: span 3;
     font-size: 30px;
     color: #0a0220;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    inline-size: 250px;
 }
 ul {
     list-style-type: none;
 }
 .mission {
+    grid-column: span 3;
     padding: 30px;
     text-align: center;
     font-size: 30px;
